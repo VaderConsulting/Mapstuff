@@ -1,6 +1,6 @@
 # Mapstuff
 
-VB6 working copy of `Mapstuff` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Project1. `VersionCompanyName`: CSC.
+CSC VB6 MapInfo `.tab` corner extractor (`MapExtract.vbp` / project Project1). Reads MapInfo table files from `d:\mapinfo`, lists Northwest/Northeast/Southeast/Southwest coordinates plus filename, and writes `c:\temp\mapinfo2.csv` with filename and corner fields.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`MapExtract.vbp`) | VB6 | WinForms exe | Project1 |
+| `Project1` (`MapExtract.vbp`) | VB6 | WinForms exe | MapInfo .tab corner extractor to CSV |
 
 ## How to open
 
@@ -28,4 +28,4 @@ Company names in project files: CSC.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT (c) 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
